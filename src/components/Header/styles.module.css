@@ -1,0 +1,15 @@
+.h1{
+    font-size: 44px;
+    font-style: italic;
+    color: #fff;
+    text-align: center;
+  }
+  .cover {
+    background: #000;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
