@@ -10,7 +10,7 @@ class InputTextStore {
   clickOnsubmit(e) {
     e.preventDefault();
     this.inputText = e.currentTarget.children.username.value;
-    if (this.inputText === ""){
+    if (this.inputText === "") {
       this.inputText = "username"
     }
 
